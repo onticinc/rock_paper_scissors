@@ -1,0 +1,89 @@
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+body {  
+	background-color: #181818;   
+	}
+
+h1 { 
+	font-style: bold; 
+	letter-spacing: 5px; 
+	margin-bottom: 10; 
+	color: white;
+  text-align: center;
+  font-size:50px;
+	}
+h2 {
+  font-style: bold; 
+	letter-spacing: 5px; 
+	margin-bottom: 10; 
+	color: white;
+  text-align: center;
+  font-size:30px;
+}
+
+/*.hero-unit {
+  background-image:  url("https://djontic.com/wp-content/uploads/2021/10/hero_image_rpsls.png"); 
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  height:313px;
+}
+*/
+.gradient {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,173,208,0.5802696078431373) 100%);
+}
+
+.m-t-15 {
+  margin-top: 15px;
+}
+
+.m-b-15 {
+  margin-bottom:15px;
+}
+
+
+#rock-icon {
+  width:30px; 
+}
+
+#spock-icon {
+  width:30px; 
+}
+
+#lizard-icon {
+  width:30px; 
+}
+
+#paper-icon {
+  width:30px; 
+}
+
+#scissors-icon {
+  width:30px;
+}
+
+#lizard-icon {
+  width:30px;
+}
+
+#random-icon {
+  width:30px;
+}
+
+.btn-height {
+  height: 70px;
+}
+
+
+
+
+
+
+
+
+

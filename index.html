@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors, Lizard, Spock.</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body style="background-color: black;">
+
+    <!-- Welcome Div -->
+    <div class="container my-5 gradient showHide" id="welcomeDiv">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1">Let's play a game of chance!</h1>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <!-- Play Game Button -->
+                    <button type="type" id="playGameButton"
+                        class="m-t-15 btn btn-primary btn-lg px-4 me-md-2 fw-bold">Play The Game!</button>
+
+                    <!-- Too Cool Button -->
+                    <button type="button" class="m-t-15 btn btn-info btn-lg px-4 me-md-2 fw-bold"
+                        onclick=" window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank')">Nope. I'm too
+                        cool for games.</button>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
+                <img src="https://djontic.com/wp-content/uploads/2021/10/rockpaperscissorslizardspock.png"
+                    style="width:200px;">
+            </div>
+        </div>
+    </div>
+    <!-- End Welcome Div -->
+
+    <!-- Play Game Div -->
+    <div class="container my-5 gradient showHide" id="playGameDiv" style="display:block;">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="row row-cols-1">
+                <h2>Choose your weapon!</h2>
+            </div>
+            <div class="row row-cols-6 m-t-15 m-b-15">
+                <div class="col">
+                    <button class="btn btn-info btn-large btn-block btn-height" id="rockButton"><img
+                            src="https://djontic.com/wp-content/uploads/2021/10/rock_hand.png" id="rock-icon">
+                        Rock</button>
+                </div>
+                <div class="col">
+                    <button id="paperButton" class="btn btn-info btn-large btn-height"><img
+                            src="https://djontic.com/wp-content/uploads/2021/10/paper_2.png" id="paper-icon">
+                        Paper</button>
+                </div>
+                <div class="col">
+                    <button id="scissorsButton" class="btn btn-info btn-large btn-height"><img
+                            src="https://djontic.com/wp-content/uploads/2021/10/scissors_2.png"
+                            id="scissors-icon">Scissors</button>
+                </div>
+                <div class="col">
+                    <button id="lizardButton" class="btn btn-info btn-large btn-height"><img
+                            src="https://djontic.com/wp-content/uploads/2021/10/lizzard.png"
+                            id="lizard-icon">Lizard</button>
+                </div>
+                <div class="col">
+                    <button id="spock" class="btn btn-info btn-large btn-height"><img
+                            src="https://djontic.com/wp-content/uploads/2021/10/spock_2.png" id="spock-icon">
+                        Spock</button>
+                </div>
+                <div class="col">
+                    <button id="random" class="btn btn-info btn-large btn-height"><img
+                            src="https://djontic.com/wp-content/uploads/2021/10/64x64.png" id="random-icon">
+                        Random</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Play Game Div -->
+
+    <div class="container my-5 gradient showHide" id="resultsDiv" style="display:block;">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <h1>And the winner is:</h1>
+        </div>
+    </div>
+
+</body>
+
+<script src="functions.js"></script>
+
+</html>
